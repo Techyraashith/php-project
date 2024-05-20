@@ -8,6 +8,6 @@ function sumMyNumbers(...$x) {
   return $n;
 }
 
-$a = sumMyNumbers(5, 2, 6, 2, 7, 7);
+$a = sumMyNumbers(10, 1, 9, 3, 4, 8);
 echo $a;
 ?>
