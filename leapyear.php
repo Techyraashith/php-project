@@ -1,9 +1,8 @@
 <?php   
-    $year = 2040;
+    $year = 2100;
     if ( $year % 4 == 0 ){
-        echo "leap year";
-
-        if( $year % 400 == 0){
+        
+        if( $year % 100 != 0){
             echo "leap year";
         
     }

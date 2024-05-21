@@ -1,5 +1,17 @@
+<html>
+    <body>
+        <form action="positive_or_not.php" method="POST">
+        Number: <input type="text"name="Number"value><br>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
+
+
 <?php
-$n = 22;
+$Number = $_POST["Number"];
 if ($n>0) {
 echo"<h1>The Number is Positive</h1>";
 
