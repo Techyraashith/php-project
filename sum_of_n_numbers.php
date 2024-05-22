@@ -1,7 +1,7 @@
 <html>
     <body>
         <form action="sum_of_n_numbers.php" method="POST">
-        Number: <input type="text"name="Number"value><br>
+        Number: <input type="text" name="Number" value><br>
 
             <input type="submit">
         </form>
@@ -10,7 +10,7 @@
 
 
 <?php
-$n=$_POST["n"];
+$n=$_POST["Number"];
 $sum=0;
 for($i=1;$i<=$n;$i++)
 {

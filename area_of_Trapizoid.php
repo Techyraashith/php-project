@@ -1,9 +1,9 @@
 <html>
     <body>
         <form action="area_of_Trapizoid.php" method="POST">
-            base1: <input type="text" name="base1"value><br>
-            base2: <input type="text" name="base2"value><br>
-            height: <input type="text" name="height"value><br>
+            base1: <input type="text" name="base1" value><br>
+            base2: <input type="text" name="base2" value><br>
+            height: <input type="text" name="height" value><br>
             <input type="submit">
 
         </form>
