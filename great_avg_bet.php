@@ -4,7 +4,7 @@ $a = $_POST["Number1"];
 $b = $_POST["Number2"];
 $c=6.5;
 
-if($a+$b/2>=c){
+if($a+$b/2>=$c){
     echo "YES";
 } 
 else{
