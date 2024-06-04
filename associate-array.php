@@ -37,10 +37,10 @@ for ($row = 0; $row < 4; $row++) {
     echo "</ul>";
   } 
 
-/* 
+
 echo "<pre>";
 print_r($cars);
 echo "<pre>" ;
- */
+ 
 
 ?>
