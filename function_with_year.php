@@ -1,7 +1,7 @@
 
 <?php
 function family($fname, $year) {
-  echo "$fname Moidheen. Born in $year <br>";
+  echo "$fname Moidheeny. Born in $year <br>";
 }
 
 family("Idhayathullah","1980");
