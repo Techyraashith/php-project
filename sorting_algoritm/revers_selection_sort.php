@@ -1,12 +1,12 @@
 <?php
-$Array = array(64, 25, 12, 22, 11);
+$Array = array(34, 29, 11, 242, 91);
 $n = count($Array);
 for ($i = 0; $i < $n - 1; $i++) 
 {
     $min = $i;
     for ($j = $i + 1; $j < $n; $j++) 
     {
-        if ($Array[$j] < $Array[$min]) {
+        if ($Array[$j] > $Array[$min]) {
             $min = $j;
         }
     }

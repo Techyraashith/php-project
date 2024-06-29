@@ -1,5 +1,5 @@
 <?php
-$Array = array(64, 25, 12, 22, 11);
+$Array = array("f", "A", "a", "T", "r");
 $n = count($Array);
 for ($i = 0; $i < $n - 1; $i++) 
 {
