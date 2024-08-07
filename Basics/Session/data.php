@@ -66,7 +66,7 @@ echo "<pre>";
 print_r($students);
 echo "</pre>"; 
 
-
+session_unset();
 echo "<table border=2>";
 echo "<tr><th>Name</th>
 <th>Age</th>
@@ -79,7 +79,7 @@ echo "<tr><th>Name</th>
 <th>Phone</th>
 <th>Email</th></tr>";
 
-$s = $_SESSION["Studentdata"]["India"] = $students;
+$s = $_SESSION["Studentdata"][] = $students;
  for($i=0;$i<=count($students);$i++){
 
     echo "<tr>";

@@ -1,6 +1,6 @@
 <?php
 ini_set('display_errors', '1');
-session_start();
+session_unset();
 $detail = array("name"=>"Raashith","Age"=>"19","Gender"=>"Male");
 ?>
 

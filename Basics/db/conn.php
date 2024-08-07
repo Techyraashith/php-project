@@ -20,8 +20,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $Gender = $_POST['Gender'];
     $Email = $_POST['Email'];
     
-    $sql = "INSERT INTO biodata (Name ,Age ,Gender ,Email,) VALUES ('$Name' ,'$Age', '$Gender', '$Email')";
-
+    $sql = "INSERT INTO biodata (Name ,Age ,Gender ,Email) VALUES ('$Name' ,'$Age', '$Gender', '$Email')";
+    echo $sql;
     if($conn->query($sql)===TRUE){
         echo "<h3>Record Inserted Successfully</h3>";
     }

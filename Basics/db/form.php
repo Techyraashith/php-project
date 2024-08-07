@@ -39,9 +39,11 @@ echo "<br><br>"; */
     <body>
         <form action="" method="POST">
         Name     : <input type="text" name="Name" value><br>
-        Age      : <input type="text" name="Age" value><br>
-        Gender   : <input type="text" name="Gender" value><br>
-        Email    : <input type="text" name="email" value><br>
+        Age      : <input type="number" name="Age" value><br>
+        <label for="">Gender</label>
+        <input type="radio" name="Gender" value="Male"> Male
+        <input type="radio" name="Gender" value="Female"> Female<br>
+        Email    : <input type="text" name="Email" value><br><br>
         <input type="submit">
         </form>
     </body>
