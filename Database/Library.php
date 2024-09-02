@@ -26,8 +26,9 @@ $select = "SELECT * FROM 1=1 ";
 
 mysqli_query($conn, $select);
 
-while($ans == 'n')
-{
+
+while($ans == 'n'){
+
     while($ans == 'n')
     {
         $a = readline("\n"."Enter Your Choice: "."\n");
@@ -116,6 +117,6 @@ while($ans == 'n')
     }
 
     $ans = readline("Are You Finished y/n: ");
-}
 
+}
 ?>
