@@ -46,15 +46,17 @@ echo "</pre>";
         }
     }
 } */
-    
+
+    $increament = 1;
     $index = 0;
-    $person = 0;
+    $person = 1;
     while($person <= 50){
 
         $tiles = $index;
 
         while($tiles<=50)
-        {
+        {   
+            
             if($color[$tiles] == 'Red'){
                 $color[$tiles] = 'Yello';
                 /* $index++; */
@@ -64,23 +66,34 @@ echo "</pre>";
                 $color[$tiles] = 'Red';
             }
 
-            $tiles = $tiles + 1;
+            $tiles = $tiles + $increament;
+
+            #echo $tiles;
+
         }
-        $index ++;
+        $increament++;
+        $index++;
         echo "<table border=1>";
         echo "<tr>";
-        for($i=0;$i<=50;$i++){
+        for($i=1;$i<=50;$i++){
             #echo "<td>".$color[$i]."</td>";
+
+            if($index==$i){
+                echo "<td bgcolor = 'orange'>Orange</td>";
+            }
+
             if($color[$i]=='Red'){
                 echo "<td bgcolor = 'red'>".$color[$i]."</td>";
             }
             else{
                 echo "<td bgcolor = 'yellow'>".$color[$i]."</td>";
             }
+
+            
         }
         echo "</tr>";
         echo "</table>";
-        #echo "<br><br>Person No: ".$person." Changed Above Array.<br><br><br>";
+        echo "<br>Person No: ".$person." Changed Above Array.<br><br><br>";
        
         $person++;
     }
